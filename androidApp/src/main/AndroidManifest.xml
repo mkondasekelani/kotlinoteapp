@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".NotesAppApplication"
+        android:allowBackup="false"
+        android:label="Notes"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:icon="@mipmap/ic_launcher"
+        >
+
+        <!-- Remove default initializer of work manager -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            tools:node="remove" />
+
+        <activity
+            android:theme="@style/Theme.Notes.SplashScreen"
+            android:name="com.example.notes.android.ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 
