@@ -1,13 +1,10 @@
-# Notes - A multiplatform notes app built with Kotlin Multiplatform
+# Cross Platform Kotlin Note App
 
 ![Banner image](screenshots/banner.png)
 
 <p align = "center">
    <a href="https://www.repostatus.org/#active"><img src="https://www.repostatus.org/badges/latest/active.svg" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." /></a>
 </p>
-
-Notes is a simple note taking app built with [KMP(Kotlin Multiplatform)](https://kotlinlang.org/docs/multiplatform.html), formerly known as [KMM (Kotlin Multiplatform Mobile)](https://blog.jetbrains.com/kotlin/2023/07/update-on-the-name-of-kotlin-multiplatform/). The app is supported on both iOS and Android.
-
 ## Table of contents
 1. [Demo](#demo)
 2. [Screenshots](#screenshots)
@@ -17,12 +14,6 @@ Notes is a simple note taking app built with [KMP(Kotlin Multiplatform)](https:/
 6. [Source code and architecture](#source-code-and-architecture)
 
 ## Demo
-
-### Android
-https://github.com/t3chkid/KMP-Notes-App/assets/54663474/c1a77c4c-c6b6-4697-9398-7da3ac886dc6
-
-### IOS
-https://github.com/t3chkid/KMP-Notes-App/assets/54663474/9c6935bd-e9da-40c6-863b-7b9ffd09dc7d
 
 ## Screenshots
 
